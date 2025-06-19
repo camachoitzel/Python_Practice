@@ -20,3 +20,13 @@ print(full_name)
 
 # string concatenation
 print('hello' + 'Andrei')
+
+# formatted strings
+name = 'Johnny'
+age = 55
+
+print(f'hi {name}. You are {age} years old')
+
+print('hi {}. You are {} years old'.format(name, age))
+
+print('hi {new_name}. You are {age} years old'.format(new_name = 'Sally', age = 100))
