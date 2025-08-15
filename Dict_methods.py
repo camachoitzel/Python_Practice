@@ -29,3 +29,18 @@ print(user) #will be an empty dict
 user2 = user.copy()
 print(user)
 print(user2)
+
+# removes key from dict
+print(user.pop("age")) # will return 20
+
+# will print the dict without age b/c it was popped
+print(user)
+
+# removes last key: value from dict
+# useful to destructively iterate over a dict
+print(user.popitem())
+
+# updates key value
+print(user.update({"age": 55})) #changes age val to 55
+
+print(user.update({"ages" : 55})) #adds ages key: value to dict 
