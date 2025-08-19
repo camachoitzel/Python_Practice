@@ -36,3 +36,26 @@ print(user[(1,2)])
 
 # tuples can be sliced
 new_tuple = my_tuple[1:2]
+
+# assign things to tuples
+x = my_tuple[1] #returns 2
+y = my_tuple[2] #returns 3
+
+# assigning values like a list
+x,y,z, *other = (1,2,3,4,5)
+
+print(x) #prints 1
+print(y) #prints 2
+print(other) #prints [4,5]
+
+# tuple methods
+my_tuple1 = (1,2,3,4,5,5)
+
+# count(): returns the number of occurences of the passed element
+print(my_tuple1.count(5)) # returns 2 b/c there are 2 5's
+
+# index(): returns the index of the passed element
+print(my_tuple1.index(5)) # returns 4
+
+# len(): gets length of tuple
+print(len(my_tuple1)) # returns 6
