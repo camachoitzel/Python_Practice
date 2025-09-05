@@ -18,7 +18,7 @@ for item in (1,2,3,4,5):
 user = {
     "name": "Golem",
     "age": 5006,
-    "can_swim" = False
+    "can_swim" : False
 }
 
 for item in user:
